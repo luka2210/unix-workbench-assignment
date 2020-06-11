@@ -1,8 +1,8 @@
 README.md:
 	touch README.md
-	echo "# Number guesser \r \n" >> README.md
-	echo "Date and time when makefile was run: "
+	echo -e "# Number guesser \\r \\n" >> README.md
+	echo "Date and time when makefile was run: " >> README.md
 	date >> README.md
-	echo "\r \n"
+	echo -e "\\r \\n" >> README.md
 	echo "Number of lines in guessinggame.sh: "
 	less guessinggame.sh | wc -l >> README.md
